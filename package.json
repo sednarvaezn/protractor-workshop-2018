@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/sednarvaezn/protractor-workshop-2018#readme",
   "dependencies": {
+    "jasmine-spec-reporter": "^7.0.0",
     "protractor": "^7.0.0",
     "rimraf": "^3.0.2"
   },
