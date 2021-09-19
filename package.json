@@ -1,0 +1,36 @@
+{
+  "name": "workshop-protractor",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && protractor dist/protractor/local.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sednarvaezn/protractor-workshop-2018.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protractor"
+  ],
+  "author": "Sebastian Narvaez <sedan1220@hotmail.com> (sednarvaezn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sednarvaezn/protractor-workshop-2018/issues"
+  },
+  "homepage": "https://github.com/sednarvaezn/protractor-workshop-2018#readme",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.10",
+    "@types/node": "^14.17.16",
+    "typescript": "^4.4.3"
+  }
+}
