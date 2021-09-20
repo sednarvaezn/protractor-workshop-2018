@@ -1,7 +1,5 @@
-dist: trusty
+dist: xenial
 language: node_js
 cache:
   directories:
     - "node_modules"
-before_script:
-  - chromedriver-update 93.0.4577.63
